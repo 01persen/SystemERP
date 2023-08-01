@@ -1,0 +1,26 @@
+{
+  "name": "systemerp",
+  "version": "1.0.0",
+  "description": "System ERP For PT.MSI",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "pkg --output build/Monitoring .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01persen/SystemERP.git"
+  },
+  "author": "Perdana Sendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/01persen/SystemERP/issues"
+  },
+  "homepage": "https://github.com/01persen/SystemERP#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0",
+    "moment": "^2.29.4"
+  }
+}
